@@ -13,12 +13,11 @@ IOS SDK for Dubber RESTfull APIs
 
 ## Installation (if `pod` in not installed)
 
-1) Open terminal and goto the Project directory
-2) Run the command `pod init`
-3) Add the following line to created Podfile
+  1. Open terminal and goto the Project directory
+  2. Run the command `pod init`
+  3. Add the following line to created Podfile
         pod 'DubberSDK', git: 'https://github.com/DubberSoftware/dubber-sdk-ios.git'
-4) Execute `pod install` from terminal to install the dependency in to your project
-5) I will create Pods directory, Podfile.lock and Dubber-ios.xcworkspace
+  4. Execute `pod install` from terminal to install the dependency in to your project
 
 ## Connecting to the Dubber API
 Once you have a valid access token, you must configure the SDK by passing the access token and
